@@ -1,4 +1,4 @@
-.not-found {
+/* .not-found {
   position: fixed;
   top: 0;
   width: 100vw;
@@ -7,4 +7,76 @@
   display: flex;
   justify-content: center;
   align-items: center;
+} */
+
+.grid{
+  display: flex;
+  flex-flow: row wrap;
+  width: 620px;
+  height: 50px;
+  /* border:5px solid lightskyblue; */
+  margin: 65px auto;
+ 
+}
+.grid div{
+  height: inherit;
+  width: 60px;
+  border: 1px solid black;
+  text-align: center;
+  font-weight: 700px;
+  color: black;
+  font-size: x-large;
+  padding-top: 5px;
+  box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 20%), 0px 4px 5px 0px rgb(0 0 0 / 14%), 0px 1px 10px 0px rgb(0 0 0 / 12%);
+}
+.exchange{
+  background-color: red;
+}
+.apply{
+  background-color: green;
+}
+.container2{
+  border: 5px  solid lightskyblue;
+ width: 650px;
+ height: 300px;
+ margin-left: 25%;
+ margin-top: 45px;
+ background-color: whitesmoke;
+}
+ .button-start{
+   margin-top: 50px;
+  margin-left: 600px;
+  width: 100px;
+  
+}
+.counter{
+  border: 1px  solid lightskyblue;
+  height: 50px;
+  border-color: white;
+}
+li :hover{
+  border-bottom: 2px solid black;
+}
+.navbar-custom {
+  background-color: whitesmoke;
+  box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 20%), 0px 4px 5px 0px rgb(0 0 0 / 14%), 0px 1px 10px 0px rgb(0 0 0 / 12%);
+  
+}
+.counter{
+  display: flex;
+  flex-flow: row wrap;
+}
+button{
+  border-radius: 5px;
+  background-color: lightskyblue;
+  color: black;
+  font-size: 24px;
+  font-weight: bold;
+}
+li{
+  font-size: 18px;
+  padding-left: 30px;
+}
+center h1{
+  color: lightskyblue;
 }

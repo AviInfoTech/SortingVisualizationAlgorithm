@@ -1,0 +1,36 @@
+.grid{
+    display: flex;
+    flex-flow: row wrap;
+    width: 620px;
+    height: 50px;
+    /* border:1px solid black; */
+    margin: 100px auto;
+   
+  }
+  .grid div{
+    height: inherit;
+    width: 60px;
+    border: 1px solid black;
+    text-align: center;
+    font-weight: 700px;
+    color: black;
+    font-size: x-large;
+    padding-top: 15px;
+  }
+  .exchange{
+    background-color: red;
+  }
+  .apply{
+    background-color: green;
+  }
+  .container{
+    border: 2px solid black;
+   width: 700px;
+   margin-left: 20%;
+   margin-top: 100px;
+  }
+  .counter{
+    border: 2px solid;
+    height: 50px;
+    border-color: white;
+  }
