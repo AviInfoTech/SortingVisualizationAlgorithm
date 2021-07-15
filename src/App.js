@@ -2,10 +2,9 @@
 import React, { useState } from "react";
 import "./App.css";
 import "../node_modules/bootstrap/dist/css/bootstrap.css";
-import Home from "./components/pages/Home";
 import Navbar from "./components/layout/Navbar";
 import DisplayAlgo from "./components/pages/DisplayAlgo";
-import { useStopwatch } from 'react-timer-hook';
+
 
 import {
   BrowserRouter as Router,
